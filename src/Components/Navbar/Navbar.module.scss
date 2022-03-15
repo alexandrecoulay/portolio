@@ -1,0 +1,10 @@
+.nav_link {
+    transition: var(--transition);
+    text-transform: uppercase;
+    font-weight: 700;
+
+    &:hover {
+        transition: var(--transition);
+        color: #bdb8b8;
+    }
+}

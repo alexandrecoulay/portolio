@@ -1,0 +1,16 @@
+.primary_color {
+    transition: var(--transition);
+    color: var(--primary-color);
+}
+
+.hover {
+
+    &:hover {
+        transition: var(--transition);
+        color: var(--third-color)
+    }
+}
+
+.pointer {
+    cursor: pointer;
+}
