@@ -6,7 +6,7 @@ function Hero() {
     
     return (
         <div className={styles.hero}>
-            <h1>Mon portfolio</h1>
+            <h1>Portfolio de Alexandre COULAY</h1>
             <div className={styles.bottom}>
                 <Icons name="chevron-left" />
             </div>

@@ -1,13 +1,13 @@
 .primary_color {
     transition: var(--transition);
-    color: var(--primary-color);
+    color: var(--text-color);
 }
 
 .hover {
 
     &:hover {
         transition: var(--transition);
-        color: var(--third-color)
+        color: var(--text-secondary)
     }
 }
 
