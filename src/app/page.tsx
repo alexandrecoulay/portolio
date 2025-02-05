@@ -1,5 +1,5 @@
 // https://hawk-style.com/en/
-import HomePage from '@/Views';
+import HomePage from '@/views';
 
 export default function Home() {
 

@@ -1,5 +1,5 @@
 import React, { PropsWithChildren, useEffect, useState } from "react";
-import styles from "./Navbar.module.scss";
+import styles from "@/styles/navbar.module.scss";
 import { classNames } from "@/services";
 import { ChangeLanguages } from "../menu";
 import SvgElement from "../svg";
