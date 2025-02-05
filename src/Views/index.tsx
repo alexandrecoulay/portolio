@@ -10,8 +10,7 @@ import Link from "@/components/link";
 import SvgElement from "@/components/svg";
 import PreviewModal from "@/components/preview/PreviewModal";
 import { cdnbaseurl, email } from "@/services/constante";
-import { NavbarDiv, NavbarElement } from "@/components/navbar";
-import { ChangeLanguages } from "@/components/menu";
+import { NavbarElement } from "@/components/navbar";
 import { classNames } from "@/services";
 
 import { skills_fr, skills_en } from "@/services/skills";
