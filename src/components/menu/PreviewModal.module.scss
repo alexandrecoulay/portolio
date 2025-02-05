@@ -1,0 +1,25 @@
+.modalOverlay {
+  position: fixed;
+  z-index: 1001; // Plus élevé que la navbar pour être au-dessus
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.75);
+
+  .modalContent {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px var(--bg-primary);
+    border-radius: 8px;
+    background-color: var(--grey-light);
+    min-width: 400px;
+    padding: 15px;
+    z-index: 1002; // Pour être au-dessus de l'overlay
+  }
+}

@@ -1,10 +1,120 @@
-.nav_link {
-    transition: var(--transition);
-    text-transform: uppercase;
-    font-weight: 700;
+.navbar {
+  transition: 0.25s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(5px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 
-    &:hover {
-        transition: var(--transition);
-        color: #bdb8b8;
+  &.header_scroll {
+    transition: all 0.25s ease;
+    border-bottom: 1px solid var(--grey);
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    max-width: var(--max-nav-width);
+  }
+
+  .division {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+
+    span {
+      display: block;
+      width: 25px;
+      height: 2px;
+      background-color: black;
+      transition: 0.3s;
     }
+  }
+
+  .onlyMobile {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .noMobile {
+      display: none;
+    }
+
+    .onlyMobile {
+      display: block;
+    }
+
+    .hamburger {
+      display: flex;
+    }
+
+    .content {
+      padding: 0 20px;
+    }
+
+    .division:nth-child(2) {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: white;
+      flex-direction: column;
+      padding: 20px;
+      transform: translateY(-100%);
+      opacity: 0;
+      visibility: hidden;
+      transition: 0.3s;
+    }
+
+    .division:last-child {
+      gap: 10px;
+    }
+
+    &.mobile_open {
+      .division:nth-child(2) {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+      }
+
+      .hamburger {
+        span:first-child {
+          transform: rotate(45deg) translate(8px, 8px);
+        }
+        span:nth-child(2) {
+          opacity: 0;
+        }
+        span:last-child {
+          transform: rotate(-45deg) translate(7px, -7px);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .division:last-child {
+      gap: 15px;
+    }
+  }
 }

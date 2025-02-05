@@ -1,0 +1,1 @@
+export const classNames = (styles: Array<string | undefined>) => styles.join(" ")
