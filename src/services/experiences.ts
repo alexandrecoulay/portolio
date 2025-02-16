@@ -70,7 +70,7 @@ export const experiences_fr = [
     },
     {
         sideProject: false,
-        date: `${formatExperienceDate(new Date(2022, 10), fr)} - ${formatExperienceDate(new Date(2024, 0), fr)}`,
+        date: `${formatExperienceDate(new Date(2022, 10), fr)} - ${formatExperienceDate(new Date(2024, 10), fr)}`,
         title: "Chef de Projet Informatique",
         company: "SNCF Voyageur",
         contexte: "L'objectif de la mission était de piloter la migration des applications Métier obsolètes en partant des besoins du client, jusqu'à la mise en production de l'évolution, ou la fin de vie de celle-ci.",
@@ -118,7 +118,7 @@ export const experiences_fr = [
     },
     {
         sideProject: true,
-        date: `${formatExperienceDate(new Date(2021, 1), fr)} - ${formatExperienceDate(new Date(2024, 10), fr)}`,
+        date: `${formatExperienceDate(new Date(2020, 10), fr)} - ${formatExperienceDate(new Date(2024, 10), fr)}`,
         title: "Création du réseau social Trender",
         website: "https://trenderapp.com",
         company: "Trender Inc.",
@@ -274,7 +274,7 @@ export const experiences_en = [
     },
     {
         sideProject: false,
-        date: `${formatExperienceDate(new Date(2022, 10), en)} - ${formatExperienceDate(new Date(2024, 0), en)}`,
+        date: `${formatExperienceDate(new Date(2022, 10), en)} - ${formatExperienceDate(new Date(2024, 10), en)}`,
         title: "IT Project Manager",
         company: "SNCF Voyageur",
         contexte: "The mission objective was to manage the migration of obsolete Business applications from client needs to production deployment or end-of-life.",
@@ -322,7 +322,7 @@ export const experiences_en = [
     },
     {
         sideProject: true,
-        date: `${formatExperienceDate(new Date(2021, 1), en)} - ${formatExperienceDate(new Date(2024, 10), en)}`,
+        date: `${formatExperienceDate(new Date(2020, 10), en)} - ${formatExperienceDate(new Date(2024, 10), en)}`,
         title: "Creation of Trender social network",
         website: "https://trenderapp.com",
         company: "Trender Inc.",
