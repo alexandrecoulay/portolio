@@ -14,6 +14,20 @@ export const experiences_fr = [
     {
         sideProject: true,
         date: `Depuis ${formatExperienceDate(new Date(2025, 2), fr)}`,
+        title: "Création d’une IA pour la recherche immobilière",
+        company: "Trender Inc.",
+        contexte: "L'objectif est de créer une IA pour rechercher des biens immobilier en fonction de ses besoins, achat, location, spécifité, etc...",
+        realisations: [
+            "Utilsation des IA Open Source DeepSeek et Whisper",
+            "Mise en place d'une stratégie de marketing",
+            "Création du site web",
+            "Création et utilisation des smart contracts"
+        ],
+        technologies: ["DeepSeek", "Whisper", "NodeJS", "mongoDB"]
+    },
+    {
+        sideProject: true,
+        date: `Depuis ${formatExperienceDate(new Date(2025, 2), fr)}`,
         title: "Fondateur d'une DApps Blockchain",
         company: " ",
         contexte: "L'objectif est de créer un site de bataille entre utilisateurs 100% décentralisé, sans backend, uniquement avec un site et des smartcontracts",
@@ -215,6 +229,20 @@ export const experiences_fr = [
 ];
 
 export const experiences_en = [
+    {
+        sideProject: true,
+        date: `From ${formatExperienceDate(new Date(2025, 2), en)}`,
+        title: "Creation of an AI for real estate search",
+        company: "Trender Inc.",
+        contexte: "The goal is to create an AI to search for real estate properties based on needs, purchase, rental, specifics, etc...",
+        realisations: [
+            "Use of Open Source AIs DeepSeek and Whisper",
+            "Implementation of a marketing strategy",
+            "Website creation",
+            "Creation and use of smart contracts"
+        ],
+        technologies: ["DeepSeek", "Whisper", "NodeJS", "mongoDB"]
+    },
     {
         sideProject: true,
         date: `From ${formatExperienceDate(new Date(2025, 2), en)}`,
