@@ -20,8 +20,7 @@ export const experiences_fr = [
         realisations: [
             "Utilsation des IA Open Source DeepSeek et Whisper",
             "Mise en place d'une stratégie de marketing",
-            "Création du site web",
-            "Création et utilisation des smart contracts"
+            "Création du site web"
         ],
         technologies: ["DeepSeek", "Whisper", "NodeJS", "mongoDB"]
     },
@@ -238,8 +237,7 @@ export const experiences_en = [
         realisations: [
             "Use of Open Source AIs DeepSeek and Whisper",
             "Implementation of a marketing strategy",
-            "Website creation",
-            "Creation and use of smart contracts"
+            "Website creation"
         ],
         technologies: ["DeepSeek", "Whisper", "NodeJS", "mongoDB"]
     },
