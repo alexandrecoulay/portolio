@@ -40,7 +40,7 @@ export const experiences_fr = [
     },
     {
         sideProject: false,
-        date: `Depuis ${formatExperienceDate(new Date(2025, 1), fr)}`,
+        date: `${formatExperienceDate(new Date(2025, 1), fr)} - ${formatExperienceDate(new Date(2025, 5), fr)}`,
         title: "Chef de projet",
         company: "Solvay",
         contexte: "Suivi de transfert d'utilisateurs de Solvay vers Syensqo, le but est de vérifier que chaque vague de transfert se passe bien et que les tâches sont bien effectuées à temps. Mise en relation des équipes à travers le monde.",
@@ -204,7 +204,7 @@ export const experiences_fr = [
     },
     {
         sideProject: true,
-        date: `Depuis ${formatExperienceDate(new Date(2018, 12), fr)}`,
+        date: `Depuis ${formatExperienceDate(new Date(2018, 1), fr)}`,
         title: "Fondateur du bot Discord certifié Eric",
         website: "https://boteric.fr",
         company: "Eric",
@@ -257,7 +257,7 @@ export const experiences_en = [
     },
     {
         sideProject: false,
-        date: `From ${formatExperienceDate(new Date(2025, 1), en)}`,
+        date: `${formatExperienceDate(new Date(2025, 1), en)} - ${formatExperienceDate(new Date(2025, 5), en)}`,
         title: "Project Manager",
         company: "Solvay",
         contexte: "Monitoring user transfer from Solvay to Syensqo, the goal is to verify that each transfer wave goes well and that tasks are completed on time. Connecting teams across the world.",
@@ -420,7 +420,7 @@ export const experiences_en = [
     },
     {
         sideProject: true,
-        date: `From ${formatExperienceDate(new Date(2018, 12), en)}`,
+        date: `From ${formatExperienceDate(new Date(2018, 1), en)}`,
         title: "Founder of certified Discord bot Eric",
         website: "https://boteric.fr",
         company: "Eric",
