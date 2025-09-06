@@ -79,7 +79,7 @@ export const experiences_fr = [
             "Création d’une stratégie SEO",
             "Création du marketing digital"
         ],
-        technologies: ["NodeJS", "TypeScript", "React", "React Native", "MongoDB", "Docker", "Linux", "Postman", "Grafana", "Prometheus", "Websockets", "OVH", "Google Cloud Platform", "AWS", "Stripe"]
+        technologies: ["NodeJS", "TypeScript", "NextJS", "React", "React Native", "MongoDB", "Docker", "Linux", "Postman", "Grafana", "Prometheus", "Websockets", "OVH", "Google Cloud Platform", "AWS", "Stripe"]
     },
     {
         sideProject: false,
@@ -127,7 +127,7 @@ export const experiences_fr = [
             "Maintenance",
             "Gestion des incidents"
         ],
-        technologies: ["NodeJS", "TypeScript", "React", "MongoDB", "Docker", "Postman"]
+        technologies: ["NodeJS", "TypeScript", "NextJS", "React", "MongoDB", "Docker", "Postman"]
     },
     {
         sideProject: true,
@@ -158,7 +158,7 @@ export const experiences_fr = [
             "Mise en ligne sur l’App Store et Play Store",
             "Création d’une stratégie SEO"
         ],
-        technologies: ["NodeJS", "TypeScript", "React", "React Native", "MongoDB", "Docker", "Linux", "Postman", "Grafana", "Prometheus", "Websockets", "OVH", "Google Cloud Platform", "AWS", "Stripe"]
+        technologies: ["NodeJS", "TypeScript", "NextJS","React", "React Native", "MongoDB", "Docker", "Linux", "Postman", "Grafana", "Prometheus", "Websockets", "OVH", "Google Cloud Platform", "AWS", "Stripe"]
     },
     {
         sideProject: false,
@@ -183,7 +183,7 @@ export const experiences_fr = [
             "Mise en place d’un pipeline CI/CD",
             "Configuration et sécurisation d’un serveur web et d’API sous linux"
         ],
-        technologies: ["NodeJS", "TypeScript", "React", "React Native", "Linux", "MongoDB", "Docker", "OVH"]
+        technologies: ["NodeJS", "TypeScript", "NextJS", "React", "React Native", "Linux", "MongoDB", "Docker", "OVH"]
     },
     {
         sideProject: false,
@@ -296,7 +296,7 @@ export const experiences_en = [
             "SEO strategy creation",
             "Digital marketing creation"
         ],
-        technologies: ["NodeJS", "TypeScript", "React", "React Native", "MongoDB", "Docker", "Linux", "Postman", "Grafana", "Prometheus", "Websockets", "OVH", "Google Cloud Platform", "AWS", "Stripe"]
+        technologies: ["NodeJS", "TypeScript", "NextJS","React", "React Native", "MongoDB", "Docker", "Linux", "Postman", "Grafana", "Prometheus", "Websockets", "OVH", "Google Cloud Platform", "AWS", "Stripe"]
     },
     {
         sideProject: false,
@@ -344,7 +344,7 @@ export const experiences_en = [
             "Maintenance",
             "Incident management"
         ],
-        technologies: ["NodeJS", "TypeScript", "React", "MongoDB", "Docker", "Postman"]
+        technologies: ["NodeJS", "TypeScript", "NextJS","React", "MongoDB", "Docker", "Postman"]
     },
     {
         sideProject: true,
@@ -375,7 +375,7 @@ export const experiences_en = [
             "App Store and Play Store publication",
             "SEO strategy creation"
         ],
-        technologies: ["NodeJS", "TypeScript", "React", "React Native", "MongoDB", "Docker", "Linux", "Postman", "Grafana", "Prometheus", "Websockets", "OVH", "Google Cloud Platform", "AWS", "Stripe"]
+        technologies: ["NodeJS", "TypeScript", "NextJS","React", "React Native", "MongoDB", "Docker", "Linux", "Postman", "Grafana", "Prometheus", "Websockets", "OVH", "Google Cloud Platform", "AWS", "Stripe"]
     },
     {
         sideProject: false,
@@ -400,7 +400,7 @@ export const experiences_en = [
             "CI/CD pipeline implementation",
             "Linux web server and API configuration and security"
         ],
-        technologies: ["NodeJS", "TypeScript", "React", "React Native", "Linux", "MongoDB", "Docker", "OVH"]
+        technologies: ["NodeJS", "TypeScript", "NextJS", "React", "React Native", "Linux", "MongoDB", "Docker", "OVH"]
     },
     {
         sideProject: false,

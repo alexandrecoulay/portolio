@@ -10,7 +10,7 @@ export const aboutme_fr = `
                             </ul>
                             <h4>Frontend</h4>
                             <ul>
-                                <li><strong>ReactJS/React Native</strong> : Développement d'interfaces utilisateur performantes et réactives pour le web et le mobile</li>
+                                <li><strong>NextJS/ReactJS/React Native</strong> : Développement d'interfaces utilisateur performantes et réactives pour le web et le mobile</li>
                                 <li><strong>Design UI/UX</strong> : Création d'expériences utilisateur intuitives et esthétiques</li>
                             </ul>
                             <h4>Projets notables</h4>
@@ -38,7 +38,7 @@ export const aboutme_en = `
                             </ul>
                             <h4>Frontend</h4>
                             <ul>
-                                <li><strong>ReactJS/React Native</strong> : Development of performant and responsive user interfaces for web and mobile</li>
+                                <li><strong>NextJS/ReactJS/React Native</strong> : Development of performant and responsive user interfaces for web and mobile</li>
                                 <li><strong>UI/UX design</strong> : Creation of intuitive and aesthetic user experiences</li>
                             </ul>
                             <h4>Notable projects</h4>
