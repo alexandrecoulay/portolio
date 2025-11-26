@@ -230,6 +230,10 @@ export const skills_en: Skill[] = [
                                 title: "SOLID",
                                 bold: ["SOLID"]
                             },
+                            {
+                                title: "Clean Code",
+                                bold: ["Clean", "Code"]
+                            }
                             /*{
                                 title: "Hexagonal Architecture",
                                 bold: ["Hexagonal", "Architecture"]
@@ -375,12 +379,53 @@ export const skills_en: Skill[] = [
                                 bold: ["MongoDB"]
                             },
                             {
-                                title: "MySQL",
-                                bold: ["MySQL"]
+                                title: "PostgreSQL",
+                                bold: ["PostgreSQL"]
                             },
                             {
-                                title: "MariaDB",
-                                bold: ["MariaDB"]
+                                title: "Weaviate",
+                                bold: ["Weaviate"]
+                            },
+                            {
+                                title: "Typesense",
+                                bold: ["Typesense"]
+                            },
+                            {
+                                title: "MySQL",
+                                bold: ["MySQL"]
+                            }
+                        ]
+                    },
+                    {
+                        title: "Artificial Intelligence",
+                        skills: [
+                            {
+                                title: "OpenAI GPT",
+                                bold: ["OpenAI", "GPT"]
+                            },
+                            {
+                                title: "LangChain",
+                                bold: ["LangChain"]
+                            },
+                            {
+                                title: "Mistral",
+                                bold: ["Mistral"]
+                            },
+                            {
+                                title: "Whisper",
+                                bold: ["Whisper"]
+                            },
+                            {
+                                title: "TensorFlow",
+                                bold: ["TensorFlow"]
+                            },
+                            {
+                                title: "Claude",
+                                bold: ["Claude"]
+                            },
+                            {
+                                title: "DeepSeek",
+                                bold: ["DeepSeek"]
                             }
                         ]
                     },

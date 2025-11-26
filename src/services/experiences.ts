@@ -13,7 +13,20 @@ const formatExperienceDate = (date: Date, locale: string) => {
 export const experiences_fr = [
     {
         sideProject: true,
-        date: `Depuis ${formatExperienceDate(new Date(2025, 2), fr)}`,
+        date: `Depuis ${formatExperienceDate(new Date(2025, 8), fr)}`,
+        title: "Création d’une IA coach de golf",
+        company: "FlyAway",
+        contexte: "Création d’une IA coach de golf afin d’aider les utilisateurs à s’améliorer.",
+        realisations: [
+            "Rechercher des vidéos pertinente dans notre base de données grâce à la recherche sémantique",
+            "Pouvoir modifier le programme et l’ajuster en fonction des discussions avec l’utilisateur",
+            "Chatter avec l’utilisateur afin de l’aider dans son apprentissage du golf"
+        ],
+        technologies: ["Mistral", "Weaviate", "NodeJS", "MonogoDB"]
+    },
+    {
+        sideProject: true,
+        date: `${formatExperienceDate(new Date(2025, 2), fr)} - ${formatExperienceDate(new Date(2025, 4), fr)}`,
         title: "Création d’une IA pour la recherche immobilière",
         company: "Trender Inc.",
         contexte: "L'objectif est de créer une IA pour rechercher des biens immobilier en fonction de ses besoins, achat, location, spécifité, etc...",
@@ -22,11 +35,11 @@ export const experiences_fr = [
             "Mise en place d'une stratégie de marketing",
             "Création du site web"
         ],
-        technologies: ["DeepSeek", "Whisper", "NodeJS", "mongoDB"]
+        technologies: ["Mistral", "Whisper", "NodeJS", "PostgreSQL"]
     },
     {
         sideProject: true,
-        date: `Depuis ${formatExperienceDate(new Date(2025, 2), fr)}`,
+        date: `${formatExperienceDate(new Date(2025, 1), fr)} - ${formatExperienceDate(new Date(2025, 2), fr)}`,
         title: "Fondateur d'une DApps Blockchain",
         company: " ",
         contexte: "L'objectif est de créer un site de bataille entre utilisateurs 100% décentralisé, sans backend, uniquement avec un site et des smartcontracts",
@@ -37,6 +50,32 @@ export const experiences_fr = [
             "Création et utilisation des smart contracts"
         ],
         technologies: ["NextJs", "Solidity", "Wagmi"]
+    },
+    {
+        sideProject: true,
+        date: `${formatExperienceDate(new Date(2024, 10), fr)} - ${formatExperienceDate(new Date(2024, 11), fr)}`,
+        title: "Recherche par Image",
+        company: "Trender Inc.",
+        contexte: "Side Project de création d’un système de recherche par image grâce à Weaviate. L’utilisateur met une image et nous retournons les images similaires (comme sur Google).",
+        realisations: [
+            "Création d’un système de recherche par image",
+            "Utilisation de Weaviate pour la recherche sémantique d’images",
+            "Retour des images similaires à celle envoyée par l’utilisateur"
+        ],
+        technologies: ["Weaviate", "NodeJS", "TypeScript", "React"]
+    },
+    {
+        sideProject: true,
+        date: `${formatExperienceDate(new Date(2024, 3), fr)} - ${formatExperienceDate(new Date(2024, 7), fr)}`,
+        title: "IA de détection contenu explicite",
+        company: "Trender Inc.",
+        contexte: "Création d’une IA pour détecter les contenus explicites sur les images et vidéos. Utilisé dans FlyAway et anciennement Trender afin de protéger les utilisateurs automatiquement, et améliorer la modération.",
+        realisations: [
+            "Développement d'une IA fiable à 97% pour la détection de contenus explicites",
+            "Intégration dans les plateformes FlyAway et Trender",
+            "Amélioration de la modération et protection automatique des utilisateurs"
+        ],
+        technologies: ["Python", "TensorFlow", "NodeJS", "TypeScript"]
     },
     {
         sideProject: false,
@@ -104,9 +143,9 @@ export const experiences_fr = [
     {
         sideProject: false,
         date: `${formatExperienceDate(new Date(2023, 9), fr)} - ${formatExperienceDate(new Date(2024, 1), fr)}`,
-        title: "Développeur fullStack Node.Js et architecte applicatif",
+        title: "Création d’un Chatbot & Développeur Fullstack Node.Js et Architecte Applicatif",
         company: "Freelance",
-        contexte: "Projet Freelance confidentiel.",
+        contexte: "Création d’un système de chatbot réaliste avec GPT-4 pour applications de rencontre. Avec une interface de suivie des bots et statistique",
         realisations: [
             "Rédaction des Users Stories",
             "Création d’une architecture applicative, base de données, serveur",
@@ -125,9 +164,11 @@ export const experiences_fr = [
             "Mise en production",
             "Mise à jour",
             "Maintenance",
-            "Gestion des incidents"
+            "Gestion des incidents",
+            "Mise en place d’un système de paiement",
+            "Mise en place de GPT-4 pour le chatbot"
         ],
-        technologies: ["NodeJS", "TypeScript", "NextJS", "React", "MongoDB", "Docker", "Postman"]
+        technologies: ["NodeJS", "TypeScript", "NextJS", "React", "MongoDB", "Docker", "Postman", "OpenAI GPT-4", "LangChain" ]
     },
     {
         sideProject: true,
@@ -151,7 +192,7 @@ export const experiences_fr = [
             "Développement et sécurisation de l’API",
             "Création d’IA pour la détection des langues et des contenus explicites",
             "Préparation pour les futures améliorations",
-            "Rédaction des documentations et des documents légaux (CGU / CGV / Mentions légale)",
+            "Rédaction des documentations et des documents légals (CGU / CGV / Mentions légale)",
             "Mise en place des tests",
             "Mise en place d’un pipeline CI/CD",
             "Création d’entreprise",
@@ -230,7 +271,20 @@ export const experiences_fr = [
 export const experiences_en = [
     {
         sideProject: true,
-        date: `From ${formatExperienceDate(new Date(2025, 2), en)}`,
+        date: `From ${formatExperienceDate(new Date(2025, 8), en)}`,
+        title: "Creation of an AI golf coach",
+        company: "FlyAway",
+        contexte: "Creation of an AI golf coach to help users improve their game.",
+        realisations: [
+            "Search for relevant videos in our database using semantic search",
+            "Ability to modify and adjust the program based on discussions with the user",
+            "Chat with the user to help them learn golf"
+        ],
+        technologies: ["Mistral", "Weaviate", "NodeJS", "MonogoDB"]
+    },
+    {
+        sideProject: true,
+        date: `${formatExperienceDate(new Date(2025, 2), en)} - ${formatExperienceDate(new Date(2025, 4), en)}`,
         title: "Creation of an AI for real estate search",
         company: "Trender Inc.",
         contexte: "The goal is to create an AI to search for real estate properties based on needs, purchase, rental, specifics, etc...",
@@ -239,11 +293,11 @@ export const experiences_en = [
             "Implementation of a marketing strategy",
             "Website creation"
         ],
-        technologies: ["DeepSeek", "Whisper", "NodeJS", "mongoDB"]
+        technologies: ["Mistral", "Whisper", "NodeJS", "PostgreSQL"]
     },
     {
         sideProject: true,
-        date: `From ${formatExperienceDate(new Date(2025, 2), en)}`,
+        date: `${formatExperienceDate(new Date(2025, 1), en)} - ${formatExperienceDate(new Date(2025, 2), en)}`,
         title: "Blockchain DApps Founder",
         company: " ",
         contexte: "The goal is to create a 100% decentralized battle site between users, without backend, only with a website and smart contracts",
@@ -254,6 +308,32 @@ export const experiences_en = [
             "Creation and use of smart contracts"
         ],
         technologies: ["NextJs", "Solidity", "Wagmi"]
+    },
+    {
+        sideProject: true,
+        date: `${formatExperienceDate(new Date(2024, 10), en)} - ${formatExperienceDate(new Date(2024, 11), en)}`,
+        title: "Image Search",
+        company: "Trender Inc.",
+        contexte: "Side Project creating an image search system using Weaviate. Users upload an image and we return similar images (like Google).",
+        realisations: [
+            "Creation of an image search system",
+            "Use of Weaviate for semantic image search",
+            "Return of images similar to the one sent by the user"
+        ],
+        technologies: ["Weaviate", "NodeJS", "TypeScript", "React"]
+    },
+    {
+        sideProject: true,
+        date: `${formatExperienceDate(new Date(2024, 3), en)} - ${formatExperienceDate(new Date(2024, 7), en)}`,
+        title: "Explicit content detection AI",
+        company: "Trender Inc.",
+        contexte: "Creation of an AI to detect explicit content in images and videos. Used in FlyAway and formerly Trender to automatically protect users and improve moderation.",
+        realisations: [
+            "Development of a 97% reliable AI for explicit content detection",
+            "Integration into FlyAway and Trender platforms",
+            "Improved moderation and automatic user protection"
+        ],
+        technologies: ["Python", "TensorFlow", "NodeJS", "TypeScript"]
     },
     {
         sideProject: false,
@@ -321,9 +401,9 @@ export const experiences_en = [
     {
         sideProject: false,
         date: `${formatExperienceDate(new Date(2023, 9), en)} - ${formatExperienceDate(new Date(2024, 1), en)}`,
-        title: "Node.Js Full Stack Developer and Application Architect",
+        title: "Chatbot Creation & Node.Js Full Stack Developer and Application Architect",
         company: "Freelance",
-        contexte: "Confidential Freelance Project.",
+        contexte: "Creation of a realistic chatbot system with GPT-4 for dating applications. With an interface for monitoring bots and statistics.",
         realisations: [
             "User Stories writing",
             "Application, database, server architecture creation",
@@ -342,9 +422,11 @@ export const experiences_en = [
             "Production deployment",
             "Updates",
             "Maintenance",
-            "Incident management"
+            "Incident management",
+            "Payment system implementation",
+            "GPT-4 implementation for chatbot"
         ],
-        technologies: ["NodeJS", "TypeScript", "NextJS","React", "MongoDB", "Docker", "Postman"]
+        technologies: ["NodeJS", "TypeScript", "NextJS", "React", "MongoDB", "Docker", "Postman", "OpenAI GPT-4", "LangChain" ]
     },
     {
         sideProject: true,
