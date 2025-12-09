@@ -153,7 +153,7 @@ export const experiences_fr = [
             "Création d’un PowerBI",
             "Suivi des migrations de données et contrôle qualité"
         ],
-        technologies: ["SQUASH", "JIRA", "POWER BI", "PowerApps"]
+        technologies: ["AWS", "SQL", "SQUASH", "JIRA", "POWER BI", "PowerApps"]
     },
     {
         sideProject: false,
@@ -426,7 +426,7 @@ export const experiences_en = [
             "PowerBI creation",
             "Data migration monitoring and quality control"
         ],
-        technologies: ["SQUASH", "JIRA", "POWER BI", "PowerApps"]
+        technologies: ["AWS", "SQL", "SQUASH", "JIRA", "POWER BI", "PowerApps"]
     },
     {
         sideProject: false,
