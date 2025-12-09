@@ -21,7 +21,8 @@ export const experiences_fr = [
             "Backend en NodeJS/Typescript pour enregistrer les coordonnées",
             "Récupération des images satellites via l'API de Mapbox",
             "Annotation des images via labelbox",
-            "Entrainement de l'IA via ultralytics"
+            "Entrainement de l'IA via ultralytics",
+            "Détection des coordonnées via pixels et traitement des images"
         ],
         technologies: ["Python", "torch", "torchvision", "opencv", "pillow", "ultralytics", "Mapbox", "NodeJS", "Typescript"]
     },
@@ -293,7 +294,8 @@ export const experiences_en = [
             "Backend in NodeJS/Typescript to register coordinates",
             "Satellite image retrieval via Mapbox API",
             "Image annotation via labelbox",
-            "AI training via ultralytics"
+            "AI training via ultralytics",
+            "Detection of coordinates via pixels and image processing"
         ],
         technologies: ["Python", "torch", "torchvision", "opencv", "pillow", "ultralytics", "Mapbox", "NodeJS", "Typescript"]
     },
