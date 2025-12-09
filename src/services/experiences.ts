@@ -12,7 +12,7 @@ const formatExperienceDate = (date: Date, locale: string) => {
 
 export const experiences_fr = [
     {
-        sideProjects: true,
+        sideProject: true,
         date: `Depuis ${formatExperienceDate(new Date(2025, 12), fr)}`,
         title: "Création d’une IA de détection des coordonnées d'obstacles sur parcours de golfs",
         company: "Trender Inc.",
@@ -285,7 +285,7 @@ export const experiences_fr = [
 
 export const experiences_en = [
     {
-        sideProjects: true,
+        sideProject: true,
         date: `Since ${formatExperienceDate(new Date(2025, 12), en)}`,
         title: "Creation of an AI to detect the coordinates of obstacles on golf courses",
         company: "Trender Inc.",
