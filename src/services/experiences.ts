@@ -1,16 +1,30 @@
 import dayjs from "dayjs";
 import "dayjs/locale/fr";
-import "dayjs/locale/en"; 
+import "dayjs/locale/en";
 
 const fr = "fr";
 const en = "en";
 
 // Fonction utilitaire pour formater les dates
 const formatExperienceDate = (date: Date, locale: string) => {
-  return `${dayjs(date).locale(locale).format("MMMM YYYY")}`;
+    return `${dayjs(date).locale(locale).format("MMMM YYYY")}`;
 }
 
 export const experiences_fr = [
+    {
+        sideProjects: true,
+        date: `Depuis ${formatExperienceDate(new Date(2025, 12), fr)}`,
+        title: "Création d’une IA de détection des coordonnées d'obstacles sur parcours de golfs",
+        company: "Trender Inc.",
+        contexte: "L'objectif est de créer une IA qui scanne les parcours de golfs via images satellites et détecte les coordonnées des obstacles, départ, fairway, green, etc...",
+        realisations: [
+            "Backend en NodeJS/Typescript pour enregistrer les coordonnées",
+            "Récupération des images satellites via l'API de Mapbox",
+            "Annotation des images via labelbox",
+            "Entrainement de l'IA via ultralytics"
+        ],
+        technologies: ["Python", "torch", "torchvision", "opencv", "pillow", "ultralytics", "Mapbox", "NodeJS", "Typescript"]
+    },
     {
         sideProject: true,
         date: `Depuis ${formatExperienceDate(new Date(2025, 8), fr)}`,
@@ -168,7 +182,7 @@ export const experiences_fr = [
             "Mise en place d’un système de paiement",
             "Mise en place de GPT-4 pour le chatbot"
         ],
-        technologies: ["NodeJS", "TypeScript", "NextJS", "React", "MongoDB", "Docker", "Postman", "OpenAI GPT-4", "LangChain" ]
+        technologies: ["NodeJS", "TypeScript", "NextJS", "React", "MongoDB", "Docker", "Postman", "OpenAI GPT-4", "LangChain"]
     },
     {
         sideProject: true,
@@ -199,7 +213,7 @@ export const experiences_fr = [
             "Mise en ligne sur l’App Store et Play Store",
             "Création d’une stratégie SEO"
         ],
-        technologies: ["NodeJS", "TypeScript", "NextJS","React", "React Native", "MongoDB", "Docker", "Linux", "Postman", "Grafana", "Prometheus", "Websockets", "OVH", "Google Cloud Platform", "AWS", "Stripe"]
+        technologies: ["NodeJS", "TypeScript", "NextJS", "React", "React Native", "MongoDB", "Docker", "Linux", "Postman", "Grafana", "Prometheus", "Websockets", "OVH", "Google Cloud Platform", "AWS", "Stripe"]
     },
     {
         sideProject: false,
@@ -239,7 +253,7 @@ export const experiences_fr = [
             "Création et modification de groupe d'accès SharePoint",
             "Amélioration d'une PowerApps",
             "Création d'une formation d'un outil interne pour plusieurs centaines d'agents",
-            
+
         ],
         technologies: ["SharePoint", "Office 365", "PowerApps"]
     },
@@ -269,6 +283,20 @@ export const experiences_fr = [
 ];
 
 export const experiences_en = [
+    {
+        sideProjects: true,
+        date: `Since ${formatExperienceDate(new Date(2025, 12), en)}`,
+        title: "Creation of an AI to detect the coordinates of obstacles on golf courses",
+        company: "Trender Inc.",
+        contexte: "The objective is to create an AI that scans golf courses via satellite images and detects the coordinates of obstacles, tee, fairway, green, etc...",
+        realisations: [
+            "Backend in NodeJS/Typescript to register coordinates",
+            "Satellite image retrieval via Mapbox API",
+            "Image annotation via labelbox",
+            "AI training via ultralytics"
+        ],
+        technologies: ["Python", "torch", "torchvision", "opencv", "pillow", "ultralytics", "Mapbox", "NodeJS", "Typescript"]
+    },
     {
         sideProject: true,
         date: `From ${formatExperienceDate(new Date(2025, 8), en)}`,
@@ -376,7 +404,7 @@ export const experiences_en = [
             "SEO strategy creation",
             "Digital marketing creation"
         ],
-        technologies: ["NodeJS", "TypeScript", "NextJS","React", "React Native", "MongoDB", "Docker", "Linux", "Postman", "Grafana", "Prometheus", "Websockets", "OVH", "Google Cloud Platform", "AWS", "Stripe"]
+        technologies: ["NodeJS", "TypeScript", "NextJS", "React", "React Native", "MongoDB", "Docker", "Linux", "Postman", "Grafana", "Prometheus", "Websockets", "OVH", "Google Cloud Platform", "AWS", "Stripe"]
     },
     {
         sideProject: false,
@@ -426,7 +454,7 @@ export const experiences_en = [
             "Payment system implementation",
             "GPT-4 implementation for chatbot"
         ],
-        technologies: ["NodeJS", "TypeScript", "NextJS", "React", "MongoDB", "Docker", "Postman", "OpenAI GPT-4", "LangChain" ]
+        technologies: ["NodeJS", "TypeScript", "NextJS", "React", "MongoDB", "Docker", "Postman", "OpenAI GPT-4", "LangChain"]
     },
     {
         sideProject: true,
@@ -457,7 +485,7 @@ export const experiences_en = [
             "App Store and Play Store publication",
             "SEO strategy creation"
         ],
-        technologies: ["NodeJS", "TypeScript", "NextJS","React", "React Native", "MongoDB", "Docker", "Linux", "Postman", "Grafana", "Prometheus", "Websockets", "OVH", "Google Cloud Platform", "AWS", "Stripe"]
+        technologies: ["NodeJS", "TypeScript", "NextJS", "React", "React Native", "MongoDB", "Docker", "Linux", "Postman", "Grafana", "Prometheus", "Websockets", "OVH", "Google Cloud Platform", "AWS", "Stripe"]
     },
     {
         sideProject: false,
