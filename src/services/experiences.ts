@@ -218,7 +218,7 @@ export const experiences_fr = [
     {
         sideProject: false,
         date: `${formatExperienceDate(new Date(2021, 4), fr)} - ${formatExperienceDate(new Date(2022, 9), fr)}`,
-        title: "Alternant Informatique",
+        title: "Développeur Fullstack & Responsable Informatique",
         company: "Mairie du Péage de Roussillon",
         contexte: "L'objectif de la mission était de suivre et vérifier l'installation et la configuration du réseau fibre au sein des bâtiments publics.",
         realisations: [
@@ -490,7 +490,7 @@ export const experiences_en = [
     {
         sideProject: false,
         date: `${formatExperienceDate(new Date(2021, 4), en)} - ${formatExperienceDate(new Date(2022, 9), en)}`,
-        title: "IT Apprentice",
+        title: "Fullstack Developer & IT Manager",
         company: "Mairie du Péage de Roussillon",
         contexte: "The mission objective was to monitor and verify the installation and configuration of the fiber network within public buildings.",
         realisations: [
