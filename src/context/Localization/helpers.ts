@@ -1,4 +1,4 @@
-import { EN, FR, languages } from './config/languages'
+import { EN, FR } from './config/languages'
 import { Language } from './types'
 
 const publicUrl = process.env.PUBLIC_URL || ''

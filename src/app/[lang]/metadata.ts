@@ -1,4 +1,4 @@
-import { meta_url, meta_description, meta_title, keywords, meta_image, meta_app_title } from '@/services/constante';
+import { meta_url, keywords, meta_image, meta_app_title } from '@/services/constante';
 import { Metadata } from 'next';
 
 interface GenerateMetadataProps {

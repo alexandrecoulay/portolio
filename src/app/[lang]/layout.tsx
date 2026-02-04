@@ -14,9 +14,13 @@ const translations = {
   },
 };
 
-export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
-  const lang = params.lang as 'en' | 'fr';
-  const t = translations[lang] || translations.en;
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ lang: string }>
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const t = translations[lang as 'en' | 'fr'] || translations.en;
 
   return {
     title: t.title,
@@ -55,12 +59,14 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   };
 }
 
-export default function LocalizedLayout({
+export default async function LocalizedLayout({
   children,
   params
-}: PropsWithChildren<{ params: { lang: string } }>) {
+}: PropsWithChildren<{ params: Promise<{ lang: string }> }>) {
+  const { lang } = await params;
+
   return (
-    <Provider initialLang={params.lang}>
+    <Provider initialLang={lang}>
       {children}
     </Provider>
   );

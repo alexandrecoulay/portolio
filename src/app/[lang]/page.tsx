@@ -9,9 +9,15 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function LocalizedHome({ params }: { params: { lang: string } }) {
+export default async function LocalizedHome({
+  params
+}: {
+  params: Promise<{ lang: string }>
+}) {
+  const { lang } = await params;
+
   // Validate language parameter
-  if (!SUPPORTED_LOCALES.includes(params.lang)) {
+  if (!SUPPORTED_LOCALES.includes(lang)) {
     notFound();
   }
 
