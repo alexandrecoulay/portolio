@@ -5,7 +5,6 @@ import { PropsWithChildren } from 'react';
 import '@/styles/globals.scss';
 
 import Analytics from '@/context/Analytics';
-import Provider from '@/context';
 
 export const viewport = {
   width: 1,
@@ -20,7 +19,12 @@ export const metadata: Metadata = {
     apple: "/images/apple-touch-icon.png"
   },
   alternates: {
-    canonical: "./"
+    canonical: "./",
+    languages: {
+      'en': '/en',
+      'fr': '/fr',
+      'x-default': '/',
+    },
   },
   keywords: keywords,
   appleWebApp: {
@@ -129,7 +133,7 @@ const addJsonLd = [
     "url": meta_url,
     "image": `${meta_url}/apple-touch-icon.png`,
     "datePublished": "2025-01-01",
-    "dateModified": new Date().toISOString().split('T')[0],
+    "dateModified": "2026-02-04",
     "author": {
       "@type": "Person",
       "name": "Alexandre Coulay",
@@ -156,9 +160,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
       </head>
       <Analytics GA_TRACKING_ID='G-SS66GFP9CH' />
       <body>
-        <Provider>
-          {children}
-        </Provider>
+        {children}
       </body>
     </html>
   )

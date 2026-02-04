@@ -2,7 +2,7 @@ import { createContext, useCallback, useEffect, useState } from 'react'
 import memoize from 'lodash/memoize'
 import { EN, languages } from './config/languages'
 import { ContextApi, ProviderState, TranslateFunction, Language } from './types'
-import { LS_KEY, fetchLocale, getLanguageCodeFromLS } from './helpers'
+import { LS_KEY, fetchLocale, getLanguageCodeFromLS, getLanguageFromCode } from './helpers'
 import translations from './config/translations.json'
 
 // Export the translations directly
@@ -24,13 +24,19 @@ languageMap.set(EN.locale, translations)
 
 export const LanguageContext = createContext<ContextApi | undefined>(undefined)
 
-export const LanguageProvider: React.FC<React.PropsWithChildren> = ({ children }) => {
+interface LanguageProviderProps extends React.PropsWithChildren {
+  initialLang?: string;
+}
+
+export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children, initialLang }) => {
   const [state, setState] = useState<ProviderState>(() => {
+    // Priority: URL lang > localStorage > EN default
+    const languageFromUrl = initialLang ? getLanguageFromCode(initialLang) : null;
     const codeFromStorage = getLanguageCodeFromLS()
 
     return {
       ...initialState,
-      currentLanguage: languages[codeFromStorage] || EN,
+      currentLanguage: languageFromUrl || languages[codeFromStorage] || EN,
     }
   })
   const { currentLanguage } = state;

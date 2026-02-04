@@ -3,10 +3,14 @@
 import { PropsWithChildren } from "react";
 import { LanguageProvider } from "./Localization";
 
-export default function Provider({ children }: PropsWithChildren) {
+interface ProviderProps extends PropsWithChildren {
+    initialLang?: string;
+}
+
+export default function Provider({ children, initialLang }: ProviderProps) {
 
     return (
-        <LanguageProvider>
+        <LanguageProvider initialLang={initialLang}>
             {children}
         </LanguageProvider>
     )

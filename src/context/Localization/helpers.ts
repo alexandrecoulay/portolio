@@ -1,4 +1,5 @@
-import { EN } from './config/languages'
+import { EN, FR, languages } from './config/languages'
+import { Language } from './types'
 
 const publicUrl = process.env.PUBLIC_URL || ''
 
@@ -23,4 +24,24 @@ export const getLanguageCodeFromLS = () => {
   } catch {
     return EN.locale
   }
+}
+
+// Map short language codes (en, fr) to full locales (en-US, fr-FR)
+export const getLanguageFromCode = (code?: string): Language => {
+  if (!code) return EN;
+
+  const lowerCode = code.toLowerCase();
+
+  switch (lowerCode) {
+    case 'fr':
+      return FR;
+    case 'en':
+    default:
+      return EN;
+  }
+}
+
+// Get locale from short code
+export const getLocaleFromCode = (code?: string): string => {
+  return getLanguageFromCode(code).locale;
 }
