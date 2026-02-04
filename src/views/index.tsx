@@ -109,13 +109,13 @@ function HomePage() {
                                                             } {option.skills && `: `}
                                                             {
                                                                 option.skills && option.skills.map((skill, index) => (
-                                                                    <>
+                                                                    <React.Fragment key={index}>
                                                                         {skill.title.split(' ').map((word, i) =>
                                                                             skill.bold.map(w => w.toLocaleLowerCase()).includes(word.toLocaleLowerCase()) ? <strong key={i}>{word} </strong> :
                                                                                 <span key={i}>{word} </span>
                                                                         )}
                                                                         {option.skills && index < option.skills.length - 1 && '- '}
-                                                                    </>
+                                                                    </React.Fragment>
                                                                 ))
                                                             }</li>
                                                     ))}

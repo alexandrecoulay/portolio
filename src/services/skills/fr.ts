@@ -375,6 +375,10 @@ export const skills_fr: Skill[] = [
                         title: "Langages",
                         skills: [
                             {
+                                title: "TypeScript",
+                                bold: ["TypeScript"]
+                            },
+                            {
                                 title: "JavaScript",
                                 bold: ["JavaScript"]
                             },
@@ -400,6 +404,10 @@ export const skills_fr: Skill[] = [
                                 bold: ["PostgreSQL"]
                             },
                             {
+                                title: "Redis",
+                                bold: ["Redis"]
+                            },
+                            {
                                 title: "Weaviate",
                                 bold: ["Weaviate"]
                             },
@@ -408,46 +416,107 @@ export const skills_fr: Skill[] = [
                                 bold: ["Typesense"]
                             },
                             {
+                                title: "Realm",
+                                bold: ["Realm"]
+                            },
+                            {
                                 title: "MySQL",
                                 bold: ["MySQL"]
                             }
                         ]
                     },
                     {
-                        title: "Intelligence Artificielle",
+                        title: "IA & Machine Learning",
                         skills: [
                             {
-                                title: "OpenAI GPT",
-                                bold: ["OpenAI", "GPT"]
-                            },
-                            {
-                                title: "LangChain",
-                                bold: ["LangChain"]
-                            },
-                            {
-                                title: "Mistral",
-                                bold: ["Mistral"]
-                            },
-                            {
-                                title: "Whisper",
-                                bold: ["Whisper"]
+                                title: "PyTorch",
+                                bold: ["PyTorch"]
                             },
                             {
                                 title: "TensorFlow",
                                 bold: ["TensorFlow"]
                             },
                             {
-                                title: "Claude",
-                                bold: ["Claude"]
+                                title: "Groq",
+                                bold: ["Groq"]
                             },
                             {
-                                title: "DeepSeek",
-                                bold: ["DeepSeek"]
+                                title: "Gemini",
+                                bold: ["Gemini"]
+                            },
+                            {
+                                title: "OpenAI GPT",
+                                bold: ["OpenAI", "GPT"]
+                            },
+                            {
+                                title: "Mistral",
+                                bold: ["Mistral"]
+                            },
+                            {
+                                title: "U-Net",
+                                bold: ["U-Net"]
+                            },
+                            {
+                                title: "ResNet50",
+                                bold: ["ResNet50"]
+                            },
+                            {
+                                title: "ONNX",
+                                bold: ["ONNX"]
+                            },
+                            {
+                                title: "OpenCV",
+                                bold: ["OpenCV"]
+                            },
+                            {
+                                title: "sentence-transformers",
+                                bold: ["sentence-transformers"]
+                            },
+                            {
+                                title: "NSFWJS",
+                                bold: ["NSFWJS"]
                             }
                         ]
                     },
                     {
-                        title: "Monitoring et gestion des processus",
+                        title: "Intégrations & Services",
+                        skills: [
+                            {
+                                title: "Redux Toolkit",
+                                bold: ["Redux", "Toolkit"]
+                            },
+                            {
+                                title: "Mongoose",
+                                bold: ["Mongoose"]
+                            },
+                            {
+                                title: "Mapbox",
+                                bold: ["Mapbox"]
+                            },
+                            {
+                                title: "RevenueCat",
+                                bold: ["RevenueCat"]
+                            },
+                            {
+                                title: "Stripe",
+                                bold: ["Stripe"]
+                            },
+                            {
+                                title: "Discord.js",
+                                bold: ["Discord.js"]
+                            },
+                            {
+                                title: "Firebase",
+                                bold: ["Firebase"]
+                            },
+                            {
+                                title: "Weights & Biases",
+                                bold: ["Weights", "Biases"]
+                            }
+                        ]
+                    },
+                    {
+                        title: "DevOps & Monitoring",
                         skills: [
                             {
                                 title: "Prometheus",
@@ -456,10 +525,6 @@ export const skills_fr: Skill[] = [
                             {
                                 title: "Grafana",
                                 bold: ["Grafana"]
-                            },
-                            {
-                                title: "Portainer",
-                                bold: ["Portainer"]
                             },
                             {
                                 title: "Traefik",

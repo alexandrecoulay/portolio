@@ -72,14 +72,41 @@ export const metadata: Metadata = {
 const addJsonLd = [
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": meta_app_title,
+    "@type": "Person",
+    "name": "Alexandre Coulay",
+    "jobTitle": "Ingénieur Fullstack IA/ML",
+    "description": "Développeur Fullstack avec 8 ans d'expérience en Node.js, TypeScript, React Native, et spécialiste IA/ML (PyTorch, RAG, LLM)",
     "url": meta_url,
-    "logo": `${meta_url}/apple-touch-icon.png`,
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "email": "contact@alexandrecoulay.fr",
-      "contactType": "customer service"
+    "email": "contact@alexandrecoulay.fr",
+    "image": `${meta_url}/apple-touch-icon.png`,
+    "sameAs": [
+      "https://linkedin.com/in/alexandre-coulay",
+      "https://github.com/alexandre-coulay"
+    ],
+    "knowsAbout": [
+      "Node.js",
+      "TypeScript",
+      "React Native",
+      "Machine Learning",
+      "PyTorch",
+      "RAG",
+      "LLM",
+      "Multi-LLM Architecture",
+      "Agentic RAG",
+      "MongoDB",
+      "Redis",
+      "Weaviate",
+      "Typesense",
+      "Computer Vision",
+      "U-Net",
+      "ResNet50",
+      "ONNX",
+      "OpenCV"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris",
+      "addressCountry": "FR"
     }
   },
   {
@@ -87,25 +114,30 @@ const addJsonLd = [
     "@type": "WebSite",
     "url": meta_url,
     "name": meta_app_title,
+    "description": meta_description,
     "publisher": {
-      "@type": "Organization",
-      "logo": `${meta_url}/apple-touch-icon.png`,
-      "name": "Alexandre COULAY",
-      "url": meta_url
+      "@type": "Person",
+      "name": "Alexandre Coulay"
     },
-    "inLanguage": "en"
+    "inLanguage": ["fr", "en"]
   },
   {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
+    "@type": "ProfilePage",
     "name": meta_title,
     "description": meta_description,
-    "url": "htmeta_url",
+    "url": meta_url,
     "image": `${meta_url}/apple-touch-icon.png`,
     "datePublished": "2025-01-01",
+    "dateModified": new Date().toISOString().split('T')[0],
     "author": {
-      "@type": "Organization",
-      "name": meta_app_title
+      "@type": "Person",
+      "name": "Alexandre Coulay",
+      "jobTitle": "Ingénieur Fullstack IA/ML"
+    },
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Alexandre Coulay"
     }
   }
 ]
