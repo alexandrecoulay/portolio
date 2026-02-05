@@ -153,7 +153,7 @@ export const experiences_fr = [
     {
         sideProject: false,
         date: `${formatExperienceDate(new Date(2022, 10), fr)} - ${formatExperienceDate(new Date(2024, 10), fr)}`,
-        title: "Chef de Projet Informatique",
+        title: "Chef de Projet IT",
         company: "SNCF Voyageur",
         contexte: "L'objectif de la mission était de piloter la migration des applications Métier obsolètes en partant des besoins du client, jusqu'à la mise en production de l'évolution, ou la fin de vie de celle-ci.",
         realisations: [
@@ -234,7 +234,7 @@ export const experiences_fr = [
     {
         sideProject: false,
         date: `${formatExperienceDate(new Date(2021, 4), fr)} - ${formatExperienceDate(new Date(2022, 9), fr)}`,
-        title: "Développeur Fullstack & Responsable Informatique",
+        title: "Chef de Projet IT & Developpeur Fullstack",
         company: "Mairie du Péage de Roussillon",
         contexte: "L'objectif de la mission était de suivre et vérifier l'installation et la configuration du réseau fibre au sein des bâtiments publics.",
         realisations: [
@@ -259,7 +259,7 @@ export const experiences_fr = [
     {
         sideProject: false,
         date: `${formatExperienceDate(new Date(2019, 10), fr)} - ${formatExperienceDate(new Date(2021, 4), fr)}`,
-        title: "Alternant Digital",
+        title: "Chef de Projet IT - Migration Postes",
         company: "SNCF Réseau",
         contexte: "L'objectif de la mission était de suivre la migration des postes SNCF de Windows 10 à Windows 11 sur l'ensemble de la ligne LGV Sud Est Européen.",
         realisations: [
@@ -526,7 +526,7 @@ export const experiences_en = [
     {
         sideProject: false,
         date: `${formatExperienceDate(new Date(2021, 4), en)} - ${formatExperienceDate(new Date(2022, 9), en)}`,
-        title: "Fullstack Developer & IT Manager",
+        title: "Fullstack Developer & IT Project Manager",
         company: "Mairie du Péage de Roussillon",
         contexte: "The mission objective was to monitor and verify the installation and configuration of the fiber network within public buildings.",
         realisations: [
@@ -551,7 +551,7 @@ export const experiences_en = [
     {
         sideProject: false,
         date: `${formatExperienceDate(new Date(2019, 10), en)} - ${formatExperienceDate(new Date(2021, 4), en)}`,
-        title: "Digital Apprentice",
+        title: "IT ProjectManager - Workstation Migration",
         company: "SNCF Réseau",
         contexte: "The mission objective was to monitor the migration of SNCF workstations from Windows 10 to Windows 11 across the entire LGV South East European line.",
         realisations: [
